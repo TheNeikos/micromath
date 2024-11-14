@@ -1,4 +1,4 @@
-use super::mean::Mean;
+use super::mean::MeanExt;
 
 /// Statistical variance
 pub trait Variance {

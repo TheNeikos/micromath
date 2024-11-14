@@ -1,6 +1,6 @@
 //! Iterate over input slices after culling statistical outliers.
 
-use super::mean::Mean;
+use super::mean::MeanExt;
 #[allow(unused_imports)]
 use crate::F32Ext;
 use core::{iter, slice};
